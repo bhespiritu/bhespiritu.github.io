@@ -5,6 +5,11 @@
 	font-weight: bold;
 }
 
+img
+{
+	width: 100%;
+}
+
 .name h1
 {
 	font-size: 24px;

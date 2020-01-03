@@ -1,0 +1,8 @@
+---
+layout: default
+---
+
+<h3>Character Art</h3>
+{% for post in site.categories.art %}
+    <a href="{{ post.url }}"><img src="{{ post.thumbnail }}"></a>
+{% endfor %}
