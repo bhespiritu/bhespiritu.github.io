@@ -64,7 +64,7 @@ i and j correspond to the x and y coordinate within the grid. c and d are some p
 For our problem, $$x_{i,j}$$ represents the potential field we want to calculate. $$b_{i,j}  = p$$  where p is the density field we calculated before. $$c = 4 \pi Gp$$ which is the coefficient from the Poisson equation.
 Finally, d is simply equal to 4. 
 
-I would iterate through the entire graph 20 times. 
+I would iterate through the entire grid 20 times. 
 Since I care more about visual appeal than physical accuracy, this number was chosen arbitrarily and adjusting it can lead to interesting changes in the final product.
 
 Once we have calculated the gravitational potential, we simply apply a force a direction that will move the particle away from areas of high potential to areas of low potential.
