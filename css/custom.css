@@ -107,7 +107,7 @@ hr
 
 p { 
 	word-break: overflow;
-	font-size: 20px;
+	font-size: 15px;
 	font-family: 'Open Sans', sans-serif;
 	
 }
@@ -176,7 +176,8 @@ h3
 }
 
 .gallery_img {
-  max-height:10vw;
+  max-height:20vw;
+  max-width:20vw;
   object-fit: cover;
   vertical-align: middle;
 }
@@ -197,3 +198,10 @@ h3
   }
 }
 
+.blog-img
+{
+	max-width: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
